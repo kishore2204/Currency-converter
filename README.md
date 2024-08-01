@@ -46,7 +46,11 @@ The Currency Converter app allows users to convert currencies in real-time using
 ## Preview
 <img src="https://github.com/user-attachments/assets/c282b970-0d60-4bc9-8579-a454085a1cf3" alt="Preview Image 1" width="200" height="400"/>
 <img src="https://github.com/user-attachments/assets/bf7d0b59-c5be-480e-8a75-9b928e87f44a" alt="Preview Image 2" width="200" height="400"/>
-<img src="https://github.com/user-attachments/assets/66b1c514-f37e-4b8c-a16e-0ae1325ac070" alt="Preview Image 3" width="200" height="400"/>
+<img src="https://github.com/user-attachments/assets/14a06800-a3a1-46c0-8437-21fa55480737" alt="Preview Image 3" width="200" height="400"/>
+<img src="https://github.com/user-attachments/assets/66b1c514-f37e-4b8c-a16e-0ae1325ac070" alt="Preview Image 3" width="200" height="400"/><br><br>
+
+Check out the video demo of the Currency Converter app: [Watch Demo](https://github.com/user-attachments/assets/60b4385c-fe04-4d40-ad79-8ec1efd78cc6)
+
 
 
 
