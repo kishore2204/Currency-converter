@@ -167,38 +167,6 @@ class _SelectionPageState extends State<SelectionPage> {
                         )),
                   ),
                 ]),
-          // elevated('US Dollars <-> Indian Rupees', () async {
-          //   fromCurrency = ['USD', 'assets/dollar.png'];
-          //   toCurrency = ['INR', 'assets/rupee.png'];
-          //   await navigateToCurrencyConverter(fromCurrency, toCurrency);
-          // }),
-          // const Spacer(
-          //   flex: 2,
-          // ),
-          // elevated('Euro <-> Indian Rupees', () {
-          //   fromCurrency = ['EUR', 'assets/euro.png'];
-          //   toCurrency = ['INR', 'assets/rupee.png'];
-          //   navigateToCurrencyConverter(fromCurrency, toCurrency);
-          // }),
-          // const Spacer(
-          //   flex: 2,
-          // ),
-          // elevated('UK Pound <-> Indian Rupees', () {
-          //   fromCurrency = ['GBP', 'assets/pound.png'];
-          //   toCurrency = ['INR', 'assets/rupee.png'];
-          //   navigateToCurrencyConverter(fromCurrency, toCurrency);
-          // }),
-          // const Spacer(
-          //   flex: 2,
-          // ),
-          // elevated('Chinese Yuan <-> Indian Rupees', () {
-          //   fromCurrency = ['CNY', 'assets/yuan.png'];
-          //   toCurrency = ['INR', 'assets/rupee.png'];
-          //   navigateToCurrencyConverter(fromCurrency, toCurrency);
-          // }),
-          // const Spacer(
-          //   flex: 2,
-          // ),
         ],
       ),
     );
