@@ -10,6 +10,7 @@ void main() {
         selectionHandleColor: Colors.teal,
       ),
     ),
+    //this calls selection page
     home: const SelectionPage(),
   ));
 }
