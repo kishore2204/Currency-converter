@@ -55,7 +55,6 @@ class _SelectionPageState extends State<SelectionPage> {
         sameCurrency = false;
       } else {
         sameCurrency = true;
-        print('cannot fix the same currency');
       }
     });
   }
@@ -67,7 +66,6 @@ class _SelectionPageState extends State<SelectionPage> {
         sameCurrency = false;
       } else {
         sameCurrency = true;
-        print('cannot fix the same currency');
       }
     });
   }
@@ -78,49 +76,7 @@ class _SelectionPageState extends State<SelectionPage> {
         MaterialPageRoute(
             builder: (context) => CurrencyConverter(
                 fromCurrency: fromCurrency, toCurrency: toCurrency)));
-
-    //Navigator.of(context).pop();
   }
-
-  // navigationToMainPage(fromCurrency, toCurrency) {
-  //   Navigator.push(
-  //       context,
-  //       MaterialPageRoute(
-  //         fullscreenDialog: false,
-  //           barrierDismissible: true,
-  //           builder: (context) => CurrencyConverter(
-  //               fromCurrency: fromCurrency, toCurrency: toCurrency)));
-  //   // Navigator.pushReplacement(
-  //   //   context,
-  //   //   PageRouteBuilder(
-  //   //     opaque: true,
-  //   //     pageBuilder: (context, animation, secondaryAnimation) =>
-  //   //         CurrencyConverter(
-  //   //             fromCurrency: fromCurrency, toCurrency: toCurrency),
-  //   //     transitionsBuilder: (context, animation, secondaryAnimation, child) {
-  //   //       const begin = Offset(1, 0);
-  //   //       const end = Offset.zero;
-  //   //       var tween = Tween(begin: begin, end: end)
-  //   //           .chain(CurveTween(curve: Curves.ease));
-  //   //       final offSetAnimation = animation.drive(tween);
-  //   //
-  //   //       return SlideTransition(
-  //   //         position: offSetAnimation,
-  //   //         child: child,
-  //   //       );
-  //   //     },transitionDuration: const Duration(seconds: 1)
-  //   //   ),
-  //   // );
-  //   // Navigator.push(
-  //   //   context,
-  //   //   CustomPageRoute(
-  //   //     child: CurrencyConverter(
-  //   //       fromCurrency: fromCurrency,
-  //   //       toCurrency: toCurrency,
-  //   //     ), type: Type.rightToLeft,
-  //   //   ),
-  //   // );
-  // }
 
   @override
   Widget build(BuildContext context) {

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:practice_app/selection_page.dart';
 import 'package:practice_app/widgets.dart';
 import 'package:practice_app/currency_api.dart';
 import 'package:practice_app/network_connectivity.dart';
